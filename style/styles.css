@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+header>span:nth-child(1)
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+header>span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+body{
+    background-color: #290059;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 2vh;
+}
+
+hr{
+    width: 50%;
+    margin: .5rem 0 1rem;
+}
+
+.bronze{
+    position: relative;
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    color: #1E0042;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bronze>span:nth-child(1), .bronze>span:nth-child(2){
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.bronze>span:nth-child(n+3){
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+}
+
+.bronze::after{
+    position: absolute;
+    bottom: -1.5rem;
+    width: 68%;
+    height: 3rem;
+    content: "Select Plan";
+    background-color: #004AAD;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gold{
+    position: relative;
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    color: #1E0042;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gold>span:nth-child(1), .gold>span:nth-child(2){
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.gold>span:nth-child(n+3){
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+}
+
+.gold::after{
+    position: absolute;
+    bottom: -1.5rem;
+    width: 68%;
+    height: 3rem;
+    content: "Select Plan";
+    background-color: #004AAD;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
